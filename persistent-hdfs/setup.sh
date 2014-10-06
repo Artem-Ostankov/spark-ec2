@@ -19,4 +19,7 @@ fi
 
 echo "Persistent HDFS installed, won't start by default..."
 
+$PERSISTENT_HDFS/sbin/start-dfs.sh
+$PERSISTENT_HDFS/bin/start-dfs.sh
+
 popd
